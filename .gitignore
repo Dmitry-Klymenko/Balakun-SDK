@@ -30,6 +30,7 @@ playground.xcworkspace
 # .swiftpm
 
 .build/
+.swiftpm/
 
 # CocoaPods
 #
@@ -60,3 +61,13 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Balakun SDK iOS package artifacts
+/iOS/.build
+/iOS/.swiftpm
+/iOS/Packages/
+
+# Merged from former /iOS/.gitignore
+.DS_Store
+DerivedData/
+.netrc
